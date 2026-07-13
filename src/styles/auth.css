@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+.auth-page{
+    min-height:100vh;
+    background:#0f0f10;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.auth-card{
+    width:420px;
+    background:#18181b;
+    border:1px solid #2c2c2e;
+    border-radius:18px;
+    padding:40px;
+}
+
+.auth-logo{
+    text-align:center;
+    color:#facc15;
+    font-size:34px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.auth-title{
+    color:white;
+    text-align:center;
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.auth-subtitle{
+    color:#9ca3af;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.auth-input{
+    width:100%;
+    padding:14px;
+    margin-bottom:18px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    background:#27272a;
+    color:white;
+    font-size:15px;
+}
+
+.auth-input::placeholder{
+    color:#9ca3af;
+}
+
+.auth-btn{
+    width:100%;
+    padding:14px;
+    background:#facc15;
+    color:black;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.auth-btn:hover{
+    background:#eab308;
+}
+
+.auth-footer{
+    margin-top:22px;
+    text-align:center;
+    color:#d4d4d8;
+}
+
+.auth-footer a{
+    color:#facc15;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.auth-footer a:hover{
+    text-decoration:underline;
+}
+
+
+.home-header{
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 60px;
+    background:#111111;
+    border-bottom:1px solid #2c2c2e;
+}
+
+.home-logo{
+    font-size:28px;
+    font-weight:700;
+    color:#facc15;
+}
+
+.home-links{
+    display:flex;
+    gap:15px;
+}
+
+.home-login{
+    background:transparent;
+    color:white;
+    border:1px solid #3a3a3a;
+    padding:10px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.home-login:hover{
+    background:#202020;
+}
+
+.home-register{
+    background:#facc15;
+    color:black;
+    border:none;
+    padding:10px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+}
+
+.home-register:hover{
+    background:#eab308;
+}

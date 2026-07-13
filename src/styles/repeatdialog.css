@@ -1,0 +1,111 @@
+.modal-overlay{
+
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.7);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    z-index:2000;
+
+}
+
+.repeat-modal{
+
+    width:420px;
+    background:#181818;
+    border-radius:16px;
+    padding:35px;
+
+    color:white;
+    text-align:center;
+
+}
+
+.repeat-modal h2{
+
+    margin-bottom:12px;
+
+}
+
+.repeat-modal p{
+
+    color:#9ca3af;
+    margin-bottom:30px;
+
+}
+
+.counter{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+
+    margin-bottom:35px;
+
+}
+
+.counter button{
+
+    width:45px;
+    height:45px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#facc15;
+    cursor:pointer;
+
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+.counter span{
+
+    font-size:34px;
+    width:60px;
+
+}
+
+.repeat-buttons{
+
+    display:flex;
+    justify-content:flex-end;
+    gap:15px;
+
+}
+
+.cancel-btn{
+
+    background:#303030;
+    color:white;
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}
+
+.start-btn{
+
+    background:#facc15;
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+}
