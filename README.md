@@ -1,29 +1,29 @@
-# 🎵 LoopStation
+# 🎵 MusicLoopStation
 
-LoopStation is a modern music streaming and playlist management web application built using React and Firebase. It allows users to securely register, log in, create playlists, upload songs, mark favorites, and enjoy an interactive music player with a clean user interface.
+MusicLoopStation is a modern music streaming and playlist management web application built using React and Firebase. It allows users to securely register, log in, create playlists, upload songs, mark favorites, and enjoy an interactive music player with a clean and responsive user interface.
 
 ## 🚀 Live Demo
 
-👉 https://loop-station-red.vercel.app
+👉 https://music-loop-station.vercel.app
 
 ## 📂 GitHub Repository
 
-👉 https://github.com/sharanyakr06/LoopStation
+👉 https://github.com/sharanyakr06/MusicLoopStation
 
 ---
 
 ## ✨ Features
 
-- User Authentication (Firebase)
-- Register & Login
-- Create Playlists
-- Upload MP3 Songs
-- Music Player
-- Favorites Management
-- Repeat & Loop Controls
-- Delete Songs & Playlists
-- User Profile
-- Responsive UI
+- 🔐 User Authentication (Firebase)
+- 👤 Register & Login
+- 🎵 Create & Manage Playlists
+- ⬆️ Upload MP3 Songs
+- ▶️ Interactive Music Player
+- ❤️ Favorites Management
+- 🔁 Repeat & Loop Controls
+- 🗑️ Delete Songs & Playlists
+- 👤 User Profile
+- 📱 Responsive User Interface
 
 ---
 
@@ -66,25 +66,25 @@ src/
 
 ## ⚙️ Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
-git clone https://github.com/sharanyakr06/LoopStation.git
+git clone https://github.com/sharanyakr06/MusicLoopStation.git
 ```
 
-Navigate to the project
+### Navigate to the project
 
 ```bash
-cd LoopStation
+cd MusicLoopStation
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server
+### Start the development server
 
 ```bash
 npm run dev
@@ -94,11 +94,10 @@ npm run dev
 
 ## 🌟 Future Enhancements
 
-- Dark/Light Theme
-- Recently Played
-- Music Recommendations
-- Share Playlists
-- Offline Playback
+- 🌙 Dark / Light Theme
+- 🕒 Recently Played
+- 🔗 Share Playlists
+- 📥 Offline Playback
 
 ---
 
@@ -106,9 +105,7 @@ npm run dev
 
 **Sharanya K R**
 
-MCA Student | FullStack Developer
+MCA Student | Full-Stack Developer
 
-GitHub: https://github.com/sharanyakr06
-
-LinkedIn: https://www.linkedin.com/in/sharanyakr
-
+- GitHub: https://github.com/sharanyakr06
+- LinkedIn: https://www.linkedin.com/in/sharanyakr
