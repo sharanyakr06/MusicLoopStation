@@ -341,3 +341,249 @@ body{
     transform:scale(1.1);
 
 }
+
+
+
+
+
+/* ============================= */
+/* Tablet Responsive */
+/* ============================= */
+
+@media (max-width: 992px){
+
+    .playlist-page{
+        flex-direction:column;
+    }
+
+    .sidebar{
+
+        width:100%;
+
+        flex-direction:row;
+
+        justify-content:space-between;
+
+        align-items:center;
+
+        padding:18px 25px;
+
+        border-right:none;
+
+        border-bottom:1px solid #262626;
+
+    }
+
+    .sidebar > div{
+
+        display:flex;
+
+        align-items:center;
+
+        gap:35px;
+
+    }
+
+    .logo{
+
+        margin-bottom:0;
+
+        font-size:28px;
+
+    }
+
+    .menu{
+
+        flex-direction:row;
+
+        gap:12px;
+
+    }
+
+    .menu a{
+
+        padding:10px 15px;
+
+    }
+
+    .content{
+
+        padding:35px;
+
+    }
+
+}
+
+
+/* ============================= */
+/* Mobile Responsive */
+/* ============================= */
+
+@media (max-width:768px){
+
+    .playlist-page{
+
+        flex-direction:column;
+
+    }
+
+    .sidebar{
+
+        width:100%;
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:20px;
+
+        padding:20px;
+
+    }
+
+    .sidebar > div{
+
+        width:100%;
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:18px;
+
+    }
+
+    .logo{
+
+        font-size:30px;
+
+    }
+
+    .menu{
+
+        width:100%;
+
+    }
+
+    .menu a{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .logout{
+
+        width:100%;
+
+    }
+
+    .content{
+
+        padding:22px;
+
+    }
+
+    .top{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:20px;
+
+    }
+
+    .top h1{
+
+        font-size:34px;
+
+    }
+
+    .create-btn{
+
+        width:100%;
+
+    }
+
+    .toolbar{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .search-box{
+
+        width:100%;
+
+        min-width:100%;
+
+    }
+
+    .sort-box{
+
+        width:100%;
+
+    }
+
+    .grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .card{
+
+        width:100%;
+
+    }
+
+}
+
+
+/* ============================= */
+/* Small Phones */
+/* ============================= */
+
+@media (max-width:480px){
+
+    .logo{
+
+        font-size:25px;
+
+    }
+
+    .top h1{
+
+        font-size:28px;
+
+    }
+
+    .playlist-count{
+
+        font-size:14px;
+
+    }
+
+    .content{
+
+        padding:18px;
+
+    }
+
+    .card{
+
+        padding:20px;
+
+    }
+
+    .card h2{
+
+        font-size:22px;
+
+    }
+
+}

@@ -167,3 +167,219 @@
     cursor:pointer;
 
 }
+
+
+
+/* ================================= */
+/* Tablet Responsive */
+/* ================================= */
+
+@media (max-width:992px){
+
+    .music-player{
+
+        grid-template-columns:1fr;
+
+        height:auto;
+
+        padding:18px 20px;
+
+        gap:18px;
+
+    }
+
+    .player-song{
+
+        align-items:center;
+
+        text-align:center;
+
+    }
+
+    .player-controls{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .progress-area{
+
+        width:100%;
+
+        justify-self:center;
+
+    }
+
+    .volume-area{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}
+
+
+/* ================================= */
+/* Mobile */
+/* ================================= */
+
+@media (max-width:768px){
+
+.music-player{
+
+    grid-template-columns:1fr;
+
+    height:auto;
+
+    padding:10px 12px;
+
+    gap:10px;
+}
+
+.player-song{
+
+    align-items:center;
+    text-align:center;
+}
+
+.player-song h4{
+
+    font-size:15px;
+
+    max-width:200px;
+
+    margin-bottom:2px;
+
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.player-song p{
+
+    font-size:11px;
+}
+
+.player-controls{
+
+    gap:10px;
+}
+
+.player-controls button{
+
+    font-size:18px;
+}
+
+.play-main{
+
+    width:42px;
+    height:42px;
+    font-size:18px;
+}
+
+.progress-area{
+
+    width:100%;
+
+    gap:6px;
+}
+
+.progress-area span{
+
+    width:28px;
+
+    font-size:10px;
+}
+
+.progress-area input{
+
+    height:4px;
+}
+
+.volume-area{
+
+    width:130px;
+
+    margin:auto;
+
+    gap:5px;
+
+    font-size:13px;
+}
+
+.volume-area input{
+
+    height:4px;
+}
+
+}
+
+
+/* ================================= */
+/* Small Phones */
+/* ================================= */
+
+@media (max-width:480px){
+
+.music-player{
+
+    padding:8px 10px;
+
+    gap:8px;
+}
+
+.player-song h4{
+
+    font-size:14px;
+
+    max-width:170px;
+}
+
+.player-song p{
+
+    font-size:10px;
+}
+
+.player-controls{
+
+    gap:8px;
+}
+
+.player-controls button{
+
+    font-size:16px;
+}
+
+.play-main{
+
+    width:38px;
+    height:38px;
+    font-size:16px;
+}
+
+.progress-area{
+
+    gap:4px;
+}
+
+.progress-area span{
+
+    width:24px;
+
+    font-size:9px;
+}
+
+.volume-area{
+
+    width:110px;
+
+    gap:4px;
+
+    font-size:12px;
+}
+
+}
