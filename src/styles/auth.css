@@ -144,3 +144,94 @@
 .home-register:hover{
     background:#eab308;
 }
+
+
+
+
+
+
+@media (max-width:768px){
+
+    .home-header{
+
+        height:auto;
+
+        padding:18px 20px;
+
+        flex-direction:column;
+
+        gap:18px;
+
+    }
+
+    .home-logo{
+
+        font-size:26px;
+
+    }
+
+    .home-links{
+
+        width:100%;
+
+        display:flex;
+
+        justify-content:center;
+
+        gap:12px;
+
+    }
+
+    .home-login,
+    .home-register{
+
+        flex:1;
+
+        max-width:170px;
+
+        padding:12px;
+
+        font-size:15px;
+
+    }
+
+}
+
+@media (max-width:480px){
+
+    .home-header{
+
+        padding:16px;
+
+        gap:15px;
+
+    }
+
+    .home-logo{
+
+        font-size:24px;
+
+    }
+
+    .home-links{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .home-login,
+    .home-register{
+
+        width:100%;
+
+        max-width:none;
+
+        padding:12px;
+
+        font-size:14px;
+
+    }
+
+}
